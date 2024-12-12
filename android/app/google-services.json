@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "684114423403",
+    "project_id": "oriens-9aa6b",
+    "storage_bucket": "oriens-9aa6b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684114423403:android:92c8d1b7dc23dae1988b2e",
+        "android_client_info": {
+          "package_name": "com.example.dms"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9gsC8dnduDTnQP1MKgWqCPtWa8F8ugqU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684114423403:android:92f984957a62e865988b2e",
+        "android_client_info": {
+          "package_name": "com.example.oriens_eam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9gsC8dnduDTnQP1MKgWqCPtWa8F8ugqU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
