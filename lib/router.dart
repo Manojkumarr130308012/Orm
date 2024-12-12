@@ -138,6 +138,8 @@ Widget addAuthBloc(BuildContext context, Widget widget) {
         await Navigator.pushReplacementNamed(context, AppRoutes.loginScreen);
       }
 
+
+
       if (state is AuthenticationAuthenticated) {
         while (Navigator.canPop(context)) {
           Navigator.pop(context);
