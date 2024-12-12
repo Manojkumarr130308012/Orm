@@ -29,7 +29,7 @@ class APIRepository {
     });
 
     dynamic returnableValues;
-    var dynamicApiRequest = DioClient.dioConfig(token: bearertoken);
+    var dynamicApiRequest = await DioClient.dioConfig(token: bearertoken);
     String? pbKey;
     try {
       Response response;

@@ -10,7 +10,7 @@ import 'package:dio/dio.dart';
 import '../utils/perference_helper.dart';
 
 class DioClient {
-  static dynamic dioConfig({String? token}) {
+  static dynamic dioConfig({String? token}) async {
     var dynHeader = {'contentType': 'application/json'};
 
     print("token$token");
@@ -18,9 +18,13 @@ class DioClient {
       dynHeader['Authorization'] = 'Bearer $token';
     }
 
+    String BaseUrl = await PreferenceHelper.getUrl();
+
+    print(BaseUrl);
+
     Dio dio = Dio(
       BaseOptions(
-          baseUrl: HttpUrl.baseUrl,
+          baseUrl: BaseUrl,
           connectTimeout: const Duration(milliseconds: 70000),
           receiveTimeout: const Duration(milliseconds: 70000),
           followRedirects: true,
